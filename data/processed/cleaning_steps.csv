@@ -1,0 +1,9 @@
+step,rows
+1. Raw OCHA file,10701
+2. Years 2000-2025 (2026 is incomplete),10164
+3. Without funding not attributed to a sector,8594
+4. Without missing or zero amount requested,7824
+5. Without the 'Other' sector,7816
+6. Without sectors with fewer than 30 rows,7807
+7. After merging country characteristics (t-1),7807
+8. Without missing country characteristics,7413
