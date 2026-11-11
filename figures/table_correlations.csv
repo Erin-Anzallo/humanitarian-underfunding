@@ -1,0 +1,6 @@
+,log_gdp_pc_lag,gov_effectiveness_lag,log_reports_lag,log_requirements,year
+log_gdp_pc_lag,1.0,0.48,-0.13,-0.12,0.15
+gov_effectiveness_lag,0.48,1.0,-0.31,-0.28,0.13
+log_reports_lag,-0.13,-0.31,1.0,0.49,0.28
+log_requirements,-0.12,-0.28,0.49,1.0,0.25
+year,0.15,0.13,0.28,0.25,1.0

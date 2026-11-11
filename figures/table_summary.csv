@@ -1,0 +1,10 @@
+,value
+Rows (sector x appeal x year),7413
+Countries,83
+Appeals,740
+Sectors,19
+Years,2000-2025
+Share underfunded (< 50% funded),0.636
+Share with no funding reported,0.112
+Share funded above 100%,0.079
+Median funding rate,0.363
