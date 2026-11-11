@@ -19,7 +19,7 @@ gradient boosting.
    | Notebook | What it does |
    |---|---|
    | `01_get_data.ipynb` | Downloads the number of ReliefWeb reports per country and year (see below) |
-   | `02_clean.ipynb` | TODO |
+   | `02_clean.ipynb` | Cleans the OCHA data, merges country characteristics (t−1) and saves the analysis table |
    | `03_logit.ipynb` | TODO |
    | `04_boosting.ipynb` | TODO |
    | `05_figures.ipynb` | TODO |
