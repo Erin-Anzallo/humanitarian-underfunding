@@ -1,0 +1,5 @@
+,Rows,Parameters,Pseudo R2 (McFadden),Log-likelihood,AIC
+0. Controls only,7413,27,0.031,-4710.0,9473.9
+1. Sector,7413,45,0.103,-4361.1,8812.1
+2. Country,7413,30,0.038,-4679.4,9418.8
+3. Sector + country,7413,48,0.115,-4305.6,8707.2

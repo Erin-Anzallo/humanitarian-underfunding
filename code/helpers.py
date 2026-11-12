@@ -56,4 +56,16 @@ def read_worldbank(path):
     long["value"] = pd.to_numeric(long["value"].replace("..", pd.NA), errors="coerce")
     return long.rename(columns={"Country Code": "countryCode",
                                 "Series Code": "series"})
-    
+
+
+def country_folds(df, n_folds=5):
+    """Assign each row to one of n_folds cross-validation folds, keeping all
+    rows of a country in the same fold (GroupKFold). The same function is used
+    for the logistic regression and the gradient boosting, so both models are
+    evaluated on exactly the same folds."""
+    from sklearn.model_selection import GroupKFold
+    folds = pd.Series(-1, index=df.index)
+    splitter = GroupKFold(n_splits=n_folds)
+    for k, (_, test) in enumerate(splitter.split(df, groups=df["countryCode"])):
+        folds.iloc[test] = k
+    return folds.to_numpy()

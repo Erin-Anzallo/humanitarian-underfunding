@@ -1,0 +1,6 @@
+,AUC,Accuracy
+0. Controls only,0.595,0.639
+1. Sector,0.688,0.688
+2. Country,0.6,0.638
+3. Sector + country,0.697,0.688
+Always 'underfunded',0.5,0.636

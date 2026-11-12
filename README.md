@@ -20,9 +20,9 @@ gradient boosting.
    |---|---|
    | `01_get_data.ipynb` | Downloads the number of ReliefWeb reports per country and year (see below) |
    | `02_clean.ipynb` | Cleans the OCHA data, merges country characteristics (t−1) and saves the analysis table |
-   | `03_logit.ipynb` | Descriptive statistics and figures: funding rate, underfunding by sector, over time and by quintile of country characteristics |
-   | `04_boosting.ipynb` | TODO |
-   | `05_figures.ipynb` | TODO |
+   | `03_explore.ipynb` | Descriptive statistics and figures: funding rate, underfunding by sector, over time and by quintile of country characteristics |
+   | `04_logistic_regression.ipynb` | Logistic regressions (sector vs country characteristics), marginal effects, country-grouped cross-validation|
+   | `05_gradient_boosting.ipynb` | TODO |
 
 All notebooks run in the Nuvolos workspace. Approximate running time: TODO.
 
