@@ -1,0 +1,7 @@
+,AUC loss (mean over folds),Min over folds,Max over folds
+Sector,0.161,0.129,0.197
+Year,0.056,0.051,0.06
+Humanitarian attention (t-1),0.024,0.008,0.034
+GDP per capita (t-1),0.004,-0.011,0.017
+Appeal size (log requirements),0.004,-0.004,0.007
+Government effectiveness (t-1),-0.002,-0.007,0.001

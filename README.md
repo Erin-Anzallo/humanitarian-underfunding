@@ -22,7 +22,7 @@ gradient boosting.
    | `02_clean.ipynb` | Cleans the OCHA data, merges country characteristics (t−1) and saves the analysis table |
    | `03_explore.ipynb` | Descriptive statistics and figures: funding rate, underfunding by sector, over time and by quintile of country characteristics |
    | `04_logistic_regression.ipynb` | Logistic regressions (sector vs country characteristics), marginal effects, country-grouped cross-validation|
-   | `05_gradient_boosting.ipynb` | TODO |
+   | `05_gradient_boosting.ipynb` | Gradient boosting with nested country-grouped cross-validation, comparison with the logistic regression, permutation importance |
 
 All notebooks run in the Nuvolos workspace. Approximate running time: TODO.
 

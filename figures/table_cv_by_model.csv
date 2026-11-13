@@ -1,0 +1,5 @@
+,"AUC, logistic regression","AUC, gradient boosting"
+0. Controls only,0.595,0.595
+1. Sector,0.688,0.704
+2. Country,0.6,0.603
+3. Sector + country,0.697,0.698
